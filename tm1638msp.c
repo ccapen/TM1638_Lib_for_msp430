@@ -124,6 +124,10 @@ void setNum(u8 order,u8 num){
     if(order>8||!order||num>0x10) return;
     sendbytesfixed((order-1)<<1,dig[num]);
 }
+void setNumdot(u8 order,u8 num){
+    if(order>8||!order||num>0x10) return;
+    sendbytesfixed((order-1)<<1,dig[num]|0x80);
+}
 void setLed(u8 order,u8 on){
     if(order>8||!order) return;
     if(on) on=1;

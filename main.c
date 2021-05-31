@@ -15,7 +15,7 @@ int main(void) {
 	        setNum(t+1,key[t]);
 	    }
 	    for(;t<8;++t){
-	        setNum(t+1,16);
+	        setNumdot(t+1,16);
 	    }
 	    t=readKey();
 	    setLed(t,1);

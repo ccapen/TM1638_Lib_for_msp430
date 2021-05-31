@@ -36,6 +36,7 @@
 void tm_init(void);
 void tm_clear(void);
 void setNum(u8 order,u8 num);//num==16 >> clear
+void setNumdot(u8 order,u8 num);//same as setNum(), expect dot
 void setLed(u8 order,u8 on);
 u8 readKey(void);           //return the order of key
 u8 readKeylist(u8 *keylist);//return number of keys
