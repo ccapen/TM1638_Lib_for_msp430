@@ -11,7 +11,7 @@
 #include <msp430f5529.h>
 #define u8 unsigned char
 
-#define Tpwclk 0.4/////all in "us"
+#define Tpwclk 0.4/////all in "micro second"
 #define Tpwstb 1
 #define Tsetup 0.1
 #define Thold 0.1
